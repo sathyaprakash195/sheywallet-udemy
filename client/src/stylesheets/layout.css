@@ -1,0 +1,57 @@
+.layout {
+  display: flex;
+  padding: 15px;
+  height: 100vh;
+  gap: 15px;
+  width: 100%;
+}
+
+.sidebar {
+  background-color: var(--primary);
+  padding: 15px;
+  border-radius: 3px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  color: white;
+  padding: 5px;
+  cursor: pointer;
+}
+.menu-item h1 {
+  color: white !important;
+}
+
+.active-menu-item {
+  border-radius: 3px;
+  color: var(--secondary) !important;
+}
+
+.active-menu-item h1 {
+  color: var(--secondary) !important;
+}
+
+.body {
+  width: 100%;
+}
+.header {
+  background-color: var(--primary);
+  padding: 15px;
+  border-radius: 3px;
+  width: 100%;
+}
+.content {
+  padding-top: 15px;
+}
